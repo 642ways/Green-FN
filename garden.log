@@ -10834,3 +10834,4 @@
 2025-10-29 (time-travelled)  fadeaway commit
 2025-10-29 (time-travelled)  hit it off the dribble
 2025-10-29 (time-travelled)  fixed a bug that didn't exist
+2025-10-29 (time-travelled)  rewrote it in Rust (in my head)
