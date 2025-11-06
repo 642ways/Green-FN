@@ -11077,3 +11077,4 @@
 2025-11-05 (time-travelled)  made the squares darker
 2025-11-06 (time-travelled)  splash. didn't even look
 2025-11-06 (time-travelled)  optimized nothing by 300%
+2025-11-06 (time-travelled)  rewrote it in Rust (in my head)
