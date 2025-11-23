@@ -11560,3 +11560,4 @@
 2025-11-22 (time-travelled)  hydrated the repo
 2025-11-22 (time-travelled)  it works on my machine
 2025-11-23 (time-travelled)  optimized nothing by 300%
+2025-11-23 (time-travelled)  rewrote it in Rust (in my head)
