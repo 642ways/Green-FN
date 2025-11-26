@@ -678,3 +678,4 @@
 2025-11-26 (time-travelled)  rewrote it in Rust (in my head)
 2025-11-26 (time-travelled)  fadeaway commit
 2025-11-26 (time-travelled)  optimized nothing by 300%
+2025-11-26 (time-travelled)  fixed a bug that didn't exist
