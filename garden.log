@@ -11759,3 +11759,4 @@
 2025-11-30 (time-travelled)  excellent release, zero code
 2025-11-30 (time-travelled)  fixed a bug that didn't exist
 2025-11-30 (time-travelled)  perfect timing, wet jumper
+2025-11-30 (time-travelled)  rewrote it in Rust (in my head)
