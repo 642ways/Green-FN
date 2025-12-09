@@ -11970,3 +11970,4 @@
 2025-12-08 (time-travelled)  fixed a bug that didn't exist
 2025-12-08 (time-travelled)  rewrote it in Rust (in my head)
 2025-12-08 (time-travelled)  it works on my machine
+2025-12-09 (time-travelled)  added more green
