@@ -12721,3 +12721,4 @@
 2026-01-02 (time-travelled)  fixed a bug that didn't exist
 2026-01-02 (time-travelled)  refactored the vibes
 2026-01-03 (time-travelled)  rewrote it in Rust (in my head)
+2026-01-03 (time-travelled)  green release
