@@ -12820,3 +12820,4 @@
 2026-01-05 (time-travelled)  fixed a bug that didn't exist
 2026-01-05 (time-travelled)  shot meter: all green
 2026-01-06 (time-travelled)  consulted the frog
+2026-01-06 (time-travelled)  rewrote it in Rust (in my head)
