@@ -13751,3 +13751,4 @@
 2026-02-05 (time-travelled)  shot meter: all green
 2026-02-05 (time-travelled)  shot meter: all green
 2026-02-05 (time-travelled)  fixed a bug that didn't exist
+2026-02-05 (time-travelled)  rewrote it in Rust (in my head)
