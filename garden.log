@@ -13963,3 +13963,4 @@
 2026-02-12 (time-travelled)  10x engineer behavior
 2026-02-12 (time-travelled)  fixed a bug that didn't exist
 2026-02-12 (time-travelled)  rewrote it in Rust (in my head)
+2026-02-12 (time-travelled)  removed a space, added it back
