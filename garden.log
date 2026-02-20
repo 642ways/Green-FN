@@ -14184,3 +14184,4 @@
 2026-02-19 (time-travelled)  contested? still green
 2026-02-20 (time-travelled)  pushed to prod on a friday
 2026-02-20 (time-travelled)  refactored the vibes
+2026-02-20 (time-travelled)  rewrote it in Rust (in my head)
