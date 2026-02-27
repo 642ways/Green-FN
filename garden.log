@@ -3392,3 +3392,4 @@
 2026-02-27 (time-travelled)  green release
 2026-02-27 (time-travelled)  it works on my machine
 2026-02-27 (time-travelled)  rewrote it in Rust (in my head)
+2026-02-27 (time-travelled)  made the squares darker
