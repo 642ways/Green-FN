@@ -15566,3 +15566,4 @@
 2026-04-07 (time-travelled)  excellent release, zero code
 2026-04-07 (time-travelled)  fixed a bug that didn't exist
 2026-04-07 (time-travelled)  fadeaway commit
+2026-04-08 (time-travelled)  rewrote it in Rust (in my head)
