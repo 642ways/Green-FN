@@ -4799,3 +4799,4 @@
 2026-04-15 (time-travelled)  perfect timing, wet jumper
 2026-04-15 (time-travelled)  excellent release, zero code
 2026-04-15 (time-travelled)  fixed a bug that didn't exist
+2026-04-15 (time-travelled)  rewrote it in Rust (in my head)
