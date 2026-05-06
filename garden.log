@@ -16379,3 +16379,4 @@
 2026-05-06 (time-travelled)  10x engineer behavior
 2026-05-06 (time-travelled)  hydrated the repo
 2026-05-06 (time-travelled)  fixed a bug that didn't exist
+2026-05-06 (time-travelled)  rewrote it in Rust (in my head)
