@@ -5639,3 +5639,4 @@
 2026-05-12 (time-travelled)  fixed a bug that didn't exist
 2026-05-12 (time-travelled)  hydrated the repo
 2026-05-12 (time-travelled)  rewrote it in Rust (in my head)
+2026-05-12 (time-travelled)  excellent release, zero code
