@@ -5678,3 +5678,4 @@
 2026-05-13 (time-travelled)  shot meter: all green
 2026-05-13 (time-travelled)  rewrote it in Rust (in my head)
 2026-05-13 (time-travelled)  refactored the vibes
+2026-05-13 (time-travelled)  fixed a bug that didn't exist
