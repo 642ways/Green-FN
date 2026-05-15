@@ -5712,3 +5712,4 @@
 2026-05-15 (time-travelled)  green release
 2026-05-15 (time-travelled)  removed a space, added it back
 2026-05-15 (time-travelled)  fixed a bug that didn't exist
+2026-05-15 (time-travelled)  rewrote it in Rust (in my head)
