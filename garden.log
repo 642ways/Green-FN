@@ -5795,3 +5795,4 @@
 2026-05-17 (time-travelled)  added more green
 2026-05-17 (time-travelled)  it works on my machine
 2026-05-17 (time-travelled)  rewrote it in Rust (in my head)
+2026-05-17 (time-travelled)  optimized nothing by 300%
