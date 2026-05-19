@@ -5873,3 +5873,4 @@
 2026-05-19 (time-travelled)  it works on my machine
 2026-05-19 (time-travelled)  it works on my machine
 2026-05-19 (time-travelled)  removed a space, added it back
+2026-05-19 (time-travelled)  rewrote it in Rust (in my head)
