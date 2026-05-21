@@ -16861,3 +16861,4 @@
 2026-05-21 (time-travelled)  it works on my machine
 2026-05-21 (time-travelled)  rewrote it in Rust (in my head)
 2026-05-21 (time-travelled)  optimized nothing by 300%
+2026-05-21 (time-travelled)  fixed a bug that didn't exist
