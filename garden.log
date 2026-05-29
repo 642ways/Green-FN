@@ -6105,3 +6105,4 @@
 2026-05-29 (time-travelled)  fixed a bug that didn't exist
 2026-05-29 (time-travelled)  pushed to prod on a friday
 2026-05-29 (time-travelled)  splash. didn't even look
+2026-05-29 (time-travelled)  rewrote it in Rust (in my head)
