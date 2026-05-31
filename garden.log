@@ -6151,3 +6151,4 @@
 2026-05-30 (time-travelled)  contested? still green
 2026-05-30 (time-travelled)  fadeaway commit
 2026-05-31 (time-travelled)  made the squares darker
+2026-05-31 (time-travelled)  rewrote it in Rust (in my head)
