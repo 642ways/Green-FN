@@ -6324,3 +6324,4 @@
 2026-06-05 (time-travelled)  excellent release, zero code
 2026-06-05 (time-travelled)  rewrote it in Rust (in my head)
 2026-06-05 (time-travelled)  fixed a bug that didn't exist
+2026-06-05 (time-travelled)  made the squares darker
