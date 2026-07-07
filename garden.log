@@ -7230,3 +7230,4 @@
 2026-07-07 (time-travelled)  removed a space, added it back
 2026-07-07 (time-travelled)  fixed a bug that didn't exist
 2026-07-07 (time-travelled)  rewrote it in Rust (in my head)
+2026-07-07 (time-travelled)  contested? still green
