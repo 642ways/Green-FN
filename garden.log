@@ -7309,3 +7309,4 @@
 2026-07-10 (time-travelled)  optimized nothing by 300%
 2026-07-10 (time-travelled)  fixed a bug that didn't exist
 2026-07-10 (time-travelled)  rewrote it in Rust (in my head)
+2026-07-10 (time-travelled)  green release
