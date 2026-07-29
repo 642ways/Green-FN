@@ -7844,3 +7844,4 @@
 2026-07-29 (time-travelled)  splash. didn't even look
 2026-07-29 (time-travelled)  shot meter: all green
 2026-07-29 (time-travelled)  rewrote it in Rust (in my head)
+2026-07-29 (time-travelled)  fixed a bug that didn't exist
