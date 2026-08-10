@@ -19353,3 +19353,4 @@
 2026-08-10 (time-travelled)  contested? still green
 2026-08-10 (time-travelled)  optimized nothing by 300%
 2026-08-10 (time-travelled)  optimized nothing by 300%
+2026-08-10 (time-travelled)  rewrote it in Rust (in my head)
