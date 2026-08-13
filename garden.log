@@ -8291,3 +8291,4 @@
 2026-08-13 (time-travelled)  made the squares darker
 2026-08-13 (time-travelled)  shot meter: all green
 2026-08-13 (time-travelled)  optimized nothing by 300%
+2026-08-13 (time-travelled)  rewrote it in Rust (in my head)
