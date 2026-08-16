@@ -8405,3 +8405,4 @@
 2026-08-16 (time-travelled)  rewrote it in Rust (in my head)
 2026-08-16 (time-travelled)  fadeaway commit
 2026-08-16 (time-travelled)  contested? still green
+2026-08-16 (time-travelled)  fixed a bug that didn't exist
