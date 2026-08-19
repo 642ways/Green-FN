@@ -19627,3 +19627,4 @@
 2026-08-19 (time-travelled)  fixed a bug that didn't exist
 2026-08-19 (time-travelled)  optimized nothing by 300%
 2026-08-19 (time-travelled)  hydrated the repo
+2026-08-19 (time-travelled)  rewrote it in Rust (in my head)
