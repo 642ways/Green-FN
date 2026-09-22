@@ -20602,3 +20602,4 @@
 2026-09-22 (time-travelled)  made the squares darker
 2026-09-22 (time-travelled)  pushed to prod on a friday
 2026-09-22 (time-travelled)  fixed a bug that didn't exist
+2026-09-22 (time-travelled)  rewrote it in Rust (in my head)
