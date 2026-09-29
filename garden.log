@@ -20814,3 +20814,4 @@
 2026-09-29 (time-travelled)  optimized nothing by 300%
 2026-09-29 (time-travelled)  it works on my machine
 2026-09-29 (time-travelled)  it works on my machine
+2026-09-29 (time-travelled)  rewrote it in Rust (in my head)
