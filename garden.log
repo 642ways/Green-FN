@@ -9989,3 +9989,4 @@
 2026-10-07 (time-travelled)  splash. didn't even look
 2026-10-07 (time-travelled)  optimized nothing by 300%
 2026-10-07 (time-travelled)  fadeaway commit
+2026-10-07 (time-travelled)  rewrote it in Rust (in my head)
