@@ -20,7 +20,11 @@ on:
 
 permissions:
   contents: write
-
+  
+concurrency:
+  group: green-fn
+  cancel-in-progress: false
+  
 jobs:
   photosynthesize:
     runs-on: ubuntu-latest
