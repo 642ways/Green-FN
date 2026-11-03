@@ -94,7 +94,6 @@ jobs:
                 batch=0
               fi
             done
-            done
           else
             # Scheduled: 5-15 commits per run x 8 runs/day = dark green, always.
             n=${COMMITS:-$(( 5 + RANDOM % 11 ))}
