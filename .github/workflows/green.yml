@@ -76,8 +76,10 @@ jobs:
           }
 
           total=0
+          batch=0
           if [ "$MODE" = "backfill" ]; then
             # One-time time travel: 20-40 commits on every day in the window.
+            # Push every ~700 commits, because GitHub seems to count only ~1000 per push.
             for d in $(seq "$DAYS" -1 1); do
               day=$(date -u -d "$d days ago" +%Y-%m-%d)
               n=$(( 20 + RANDOM % 21 ))
@@ -86,6 +88,12 @@ jobs:
                 plant "$t" "$day (time-travelled)"
               done
               total=$(( total + n ))
+              batch=$(( batch + n ))
+              if [ "$batch" -ge 700 ]; then
+                git push
+                batch=0
+              fi
+            done
             done
           else
             # Scheduled: 5-15 commits per run x 8 runs/day = dark green, always.
