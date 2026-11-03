@@ -1,0 +1,101 @@
+name: Green-FN 🟩
+
+on:
+  schedule:
+    # Every 3 hours. Every. Single. Day. Photosynthesis never sleeps.
+    - cron: "7 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "grow = commit now | backfill = paint the PAST green too"
+        type: choice
+        options: [grow, backfill]
+        default: grow
+      commits:
+        description: "grow: how many commits right now"
+        default: "50"
+      days:
+        description: "backfill: how many days back to turn green"
+        default: "365"
+
+permissions:
+  contents: write
+
+jobs:
+  photosynthesize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Become you
+        # Commits only count on your graph if the author email is yours.
+        # Defaults to your GitHub noreply email; override with repo variables.
+        run: |
+          git config user.name  "${{ vars.GIT_NAME  || github.actor }}"
+          git config user.email "${{ vars.GIT_EMAIL || format('{0}+{1}@users.noreply.github.com', github.actor_id, github.actor) }}"
+
+      - name: GREEN
+        env:
+          MODE: ${{ github.event.inputs.mode || 'grow' }}
+          COMMITS: ${{ github.event.inputs.commits || '' }}
+          DAYS: ${{ github.event.inputs.days || '365' }}
+        run: |
+          excuses=(
+            "refactored the vibes"
+            "fixed a bug that didn't exist"
+            "optimized nothing by 300%"
+            "touched grass (digitally)"
+            "added more green"
+            "removed a space, added it back"
+            "consulted the frog"
+            "10x engineer behavior"
+            "rewrote it in Rust (in my head)"
+            "pushed to prod on a friday"
+            "hydrated the repo"
+            "trust me bro"
+            "it works on my machine"
+            "made the squares darker"
+            "sorry recruiters"
+            "green release"
+            "perfect timing, wet jumper"
+            "greened it from the logo"
+            "excellent release, zero code"
+            "cooking with no defender"
+            "splash. didn't even look"
+            "contested? still green"
+            "fadeaway commit"
+            "shot meter: all green"
+            "hit it off the dribble"
+          )
+
+          plant() {  # $1 = commit date (ISO), $2 = label
+            e=${excuses[$(( RANDOM % ${#excuses[@]} ))]}
+            echo "$2  $e" >> garden.log
+            git add garden.log
+            GIT_AUTHOR_DATE="$1" GIT_COMMITTER_DATE="$1" git commit -q -m "$e"
+          }
+
+          total=0
+          if [ "$MODE" = "backfill" ]; then
+            # One-time time travel: 20-40 commits on every day in the window.
+            for d in $(seq "$DAYS" -1 1); do
+              day=$(date -u -d "$d days ago" +%Y-%m-%d)
+              n=$(( 20 + RANDOM % 21 ))
+              for i in $(seq 1 "$n"); do
+                t=$(printf "%sT%02d:%02d:%02dZ" "$day" $((RANDOM % 24)) $((RANDOM % 60)) $((RANDOM % 60)))
+                plant "$t" "$day (time-travelled)"
+              done
+              total=$(( total + n ))
+            done
+          else
+            # Scheduled: 5-15 commits per run x 8 runs/day = dark green, always.
+            n=${COMMITS:-$(( 5 + RANDOM % 11 ))}
+            for i in $(seq 1 "$n"); do
+              now=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+              plant "$now" "$now"
+            done
+            total=$n
+          fi
+
+          echo "🟩 Planted $total commits. The squares grow darker."
+          git push
