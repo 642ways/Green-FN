@@ -80,6 +80,8 @@ A: Actions → Green-FN → `···` → Disable workflow. But why would you.
 
 Inspired by the OG auto-greener [**Dawet-IJO**](https://github.com/ABCDullahh/Dawet-IJO) by [ABCDullahh](https://github.com/ABCDullahh). They walked so Green-FN could green from half court.
 
+Built with the help of [Claude](https://claude.ai), who assisted on every green and asked for nothing in return.
+
 ---
 
 <p align="center">🟩🟩🟩 <b>touch grass? no. become grass.</b> 🟩🟩🟩</p>
